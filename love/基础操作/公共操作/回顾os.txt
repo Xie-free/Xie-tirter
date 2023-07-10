@@ -1,0 +1,58 @@
+文件操作:
+os模块:
+os模块
+import os
+os.path
+ dirname
+ join
+ split
+ splittext
+ getsize
+
+ isabs
+ isdir
+ isfile
+
+os
+getcwd()
+chdir()
+listdir()
+mkdir()
+rmdir()
+remove()
+...
+
+
+异常:
+语法错误
+异常
+
+系统抛出异常
+
+list1 = []
+list1.pop()
+
+处理异常:
+
+try:
+    可能发生异常的代码
+except:
+    有异常才会进入的代码
+[except 异常类型 as err:
+       ....]
+[
+ else:
+    没有异常才会进入的代码部分
+]
+[
+finally:
+    无论有没有异常, 都会执行的人代码
+]
+
+
+抛出异常: 手动异常 raise
+ 格式:
+    raise 异常类型("提示信息")
+
+
+

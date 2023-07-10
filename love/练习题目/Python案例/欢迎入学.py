@@ -1,0 +1,7 @@
+name = input("请输入姓名")
+print("|"+"+"*30+"|")
+print("|"+" "*30+"|")
+print("|"+" "*5+"Welcome to WHUT"+" "*10+"|")
+print("|"+" "*30+"|")
+print("|"+"+"*30+"|")
+print(f"欢迎您,{name}同学!")

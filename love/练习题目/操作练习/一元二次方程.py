@@ -1,0 +1,5 @@
+a = float(input("请输入a的数值:"))
+b = float(input("请输入b的数值:"))
+c = float(input("请输入c的数值:"))
+x_1 = (-b + (b ** 2 - (4 * a * c)) ** (1/2)) / (2 * a)
+print(round(x_1, 2))
